@@ -4,8 +4,8 @@ pipeline
 	{
 		label
 		{
-			label "slave"
-			customWorkspace "/mnt/slave"
+			label "built-in"
+			customWorkspace "/mnt/jenkins-slave"
 		}
 	}
 
@@ -15,7 +15,7 @@ pipeline
 		{
 			steps	
 			{
-			    echo "hello, all"
+			    echo "hello all this is master branch"
 			}
 		}
 	
